@@ -1,3 +1,4 @@
+// Homework 2 Todo App component
 import React, { useState, useEffect } from "react";
 
 export default function App() {
@@ -103,7 +104,7 @@ const visibleTodos =
         <FilterButton current={filter} value="completed" onClick={setFilter} />
       </div>
 
-
+      
       {/* Todo List */}
         <ul style={{ marginTop: 20, paddingLeft: 0 }}>
       {todos.length === 0 ? (
